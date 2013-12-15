@@ -1,3 +1,11 @@
+
+function setFirstLetter(letter) {
+	this.letter = letter;
+}
+function getFirstLetter() {
+	return letter;
+}
+
 function setDateList(datalist) {
 	dali = datalist;
 }
@@ -45,8 +53,8 @@ function getSymbol() {
 }
 
 
-function getVars() {
-	console.log(Topic+Market);
+function getMarket() {
+	return Market;
 }
 
 function setChartType(ctype) {
@@ -77,4 +85,42 @@ function setValue(value) {
 
 function getValue() {
 	return value;
+}
+
+function setNewsArray(narray) {
+	newsarray = narray;
+}
+
+function getNewsArray() {
+	return newsarray;
+}
+
+
+
+//new since 15/12
+function setURL(url) {
+	this.url = url;
+}
+
+function getURL() {
+	return url;
+}
+
+function setDiadata(diad) {
+	this.diad = diad;
+}
+function getDiadata() {
+	return diad;
+}
+function setListdata(listdata) {
+	this.listdata = listdata;
+}
+function getListdata() {
+	return listdata;
+}
+function setNewsItem(nitem) {
+	this.nitem = nitem;
+}
+function getNewsItem() {
+	return nitem;
 }
